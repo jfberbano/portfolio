@@ -1,0 +1,167 @@
+/*index.html*/
+body{
+    background: #000000; 
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/background-pic.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.header-text{
+    margin-top: 30%;
+    font-size: 15px;
+}
+
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.header-text h1 span{
+    color: #009688 ;
+    font-weight: 600;
+}
+
+.navigation ul li {
+    font-weight: 600;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #009688 ;
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.about-img{
+    border-radius: 5%;
+}
+
+.sub-title{
+    font-size: 60px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.contact p i{
+    margin-right: 15px;
+    font-size: 25px;
+    color: #009688 ;
+}
+
+.social-icons a{
+    font-size: 30px;
+    margin-right: 15px;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons a:hover{
+    transform: translateY(-10px);
+}
+
+form input, form textarea{
+    background: #262626;
+    padding: 10px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.submit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #009688 ;
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#scrollToTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #009688 ;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+}
+
+/* Portfolio */
+#header-port{
+    width: 100%;
+    height: 50vh;
+    background-image: url(img/port-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.header-text-port{
+    margin-top: 13%;
+    font-size: 15px;
+}
+
+.header-text-port h1{
+    font-size: 60px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.header-text-port h1 span{
+    color: #009688 ;
+    font-weight: 600;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+/* Graphic Design Portfolio */
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.image-grid img {
+    height: 500px;
+    width: 800px;
+    margin: 10px;
+}
+
+/*Phonesize Custom CSS */
+@media only screen and (max-width: 600px) {
+    #header{
+        background-image: url(img/background-pic-phone.jpg);
+    }
+    
+    .header-text {
+        margin-top: 85%;
+        font-size: 13px;
+    }
+
+    .header-text h1{
+        font-size: 30px;
+    }
+
+    .sub-title{
+        text-align:center;
+    }
+
+    .sub-title-port{
+        text-align: center;
+    }
+}
